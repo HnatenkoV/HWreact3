@@ -1,5 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  max-width: 1050px;
+
+  margin: 0 auto;
+
 }
 
 .App-logo {
@@ -36,3 +44,81 @@
     transform: rotate(360deg);
   }
 }
+
+.first-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 2px 0 20px;
+}
+
+.Theme-dark {
+  background-color: #647db0;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
+}
+
+.Theme-dark .bg {
+  background: #48585d;
+}
+.Theme-light {
+  background-color: #bbd5b0;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
+}
+
+.Theme-light .bg {
+  background: #afffc4;
+}
+
+.theme-ind {
+  position: relative;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+
+.theme-ind p {
+  position: absolute;
+  left: 90%;
+  display: block;
+  border: 2px solid #151515;
+  padding: 10px 20px;
+  background-color: #388075;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.input-block input {
+  max-width: 400px;
+  margin: 10px 0 3px;
+}
+
+.input-plhdr {
+  color: red;
+  font-size: 15px;
+}
+
